@@ -1,0 +1,7 @@
+^LICENSE\.md$
+^data$
+^README\.Rmd$
+^dev_history\.R$
+^revdep$
+^hackaviz\.Rproj$
+^\.Rproj\.user$

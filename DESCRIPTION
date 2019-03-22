@@ -1,0 +1,26 @@
+Package: hackaviz
+Title: hackaviz
+Version: 0.0.0.9000
+Authors@R: person('Camille', 'Bonamy', email = 'camille.bonamy@nextdecision.fr', role = c('cre', 'aut'))
+Description: This package contains visualization.
+License: MIT + file LICENSE
+URL: https://github.com/ND-open/hackaviz
+Imports: 
+    dplyr,
+    DT,
+    dygraphs,
+    ggplot2,
+    magrittr,
+    plotly,
+    shiny,
+    shinyalert,
+    tidyr
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
