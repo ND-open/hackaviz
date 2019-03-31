@@ -63,3 +63,15 @@ Also a quote using `>`:
 
 > "He who gives up [code] safety for [code] speed deserves neither."
 ([via](https://twitter.com/hadleywickham/status/504368538874703872))
+
+
+```{r}
+library(leaflet)
+
+m <- leaflet() %>%
+        addTiles() %>%  # Add default OpenStreetMap map tiles
+        addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+
+m
+```
+

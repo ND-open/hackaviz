@@ -1,3 +1,7 @@
+R
+hackaviz.Rproj
+.Rbuildignore
+.gitignore
 dev_history.R
 inst/doc
 .Rproj.user
